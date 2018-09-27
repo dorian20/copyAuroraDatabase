@@ -1,0 +1,9 @@
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases ltcmstdev --no-create-info --result-file=ltcmstdev_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases ltcmatdev --no-create-info --result-file=ltcmatdev_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases ltcmdba --no-create-info --result-file=ltcmdba_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases poc_ord_tx --no-create-info --result-file=poc_ord_tx_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases ltcmetldev --no-create-info --result-file=ltcmetldev_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases poc_etl --no-create-info --result-file=poc_etl_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases lpsdev --no-create-info --result-file=lpsdev_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases ltcmprdev --no-create-info --result-file=ltcmprdev_data.sql
+mysqldump -h 127.0.0.1 -P 5198 -u b2_dba -pqwer1234 --databases sequence --no-create-info --result-file=sequence_data.sql
